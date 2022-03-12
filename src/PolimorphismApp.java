@@ -9,13 +9,16 @@ public class PolimorphismApp {
         employee = new VicePresident("Ian");
         employee.sayHello("Haris");
 
+        //method polymorphisme
         sayHello(new Employee("Ian"));
         sayHello(new Manager("Cici"));
         sayHello(new VicePresident("Rizal"));
     }
-
+    //polymorphism kemampuan merubah bentuk ke bentuk lain
+    //instanceof u/ mengecek type data objeck
     static void sayHello(Employee employee){
         if(employee instanceof  VicePresident){
+            //conversi ke object parentnya
             VicePresident vicePresident = (VicePresident) employee;
             System.out.println("Hello VP" + employee.name);
         }else if(employee instanceof Manager){
