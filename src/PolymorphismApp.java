@@ -1,3 +1,6 @@
+/**
+ * Merubah bentuk class ke bentuk lain
+ */
 public class PolymorphismApp {
     public static void main(String[] args) {
         Employee employee = new Employee("Ian");
