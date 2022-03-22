@@ -1,5 +1,6 @@
 package com.belajar.oop.application;
 
+
 import com.belajar.oop.data.Animal;
 import com.belajar.oop.data.Cat;
 
